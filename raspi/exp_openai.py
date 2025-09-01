@@ -113,8 +113,8 @@ class ExpOpenAI:
                 else:
                     print("JSONの抽出または解析に失敗しました")
                 time.sleep(5)
-            except KeyboardInterrupt:
-                print("終了します。")
+        except KeyboardInterrupt:
+            print("終了します。")
 
 if __name__ == "__main__":
     exp = ExpOpenAI()
