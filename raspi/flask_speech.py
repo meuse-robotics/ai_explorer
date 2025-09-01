@@ -74,8 +74,8 @@ class FlaskSpeech:
                     else:
                         print("JSONの抽出または解析に失敗しました")
             
-            except KeyboardInterrupt:
-                print("終了します。")
+        except KeyboardInterrupt:
+            print("終了します。")
 
 if __name__ == "__main__":
     
