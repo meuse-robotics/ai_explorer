@@ -92,8 +92,8 @@ class FlaskYolo:
 
                     print(result_dict)
                                 
-            except KeyboardInterrupt:
-                print("終了します。")
+        except KeyboardInterrupt:
+            print("終了します。")
 
 if __name__ == "__main__":
     
